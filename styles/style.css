@@ -84,3 +84,35 @@ button {
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
+/********** MAIN CONTENT ***************/
+
+/*****INFO SECTION *******/
+h2 {
+  border: 1px solid green;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.info-layout {
+  display: flex;
+}
+.card-container {
+  border: 1px solid red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 9rem;
+  height: 9rem;
+  border: 3px solid #3882f6;
+  border-radius: 0.625rem;
+}
