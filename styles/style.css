@@ -101,6 +101,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  padding-bottom: 10rem;
 }
 
 .info-layout {
@@ -121,4 +122,31 @@ h2 {
   height: 9rem;
   border: 3px solid #3882f6;
   border-radius: 0.625rem;
+}
+
+/*****QUOTE SECTION *******/
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 2.25rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.author {
+  font-size: 1.625rem;
+  color: #1f2937;
+  font-weight: bold;
 }
