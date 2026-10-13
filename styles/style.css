@@ -150,3 +150,34 @@ h2 {
   color: #1f2937;
   font-weight: bold;
 }
+
+/**CALL TO ACTION SECTION***/
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem;
+}
+.call-to-action-container {
+  padding: 2.75rem 8rem;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 0.313rem;
+
+  display: flex;
+  align-items: center;
+  gap: 13rem;
+}
+
+.call-to-action-heading {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.call-to-action-desc {
+  color: rgba(255, 255, 255, 0.77);
+}
+.call-to-action-btn {
+  border: 2px solid white;
+}
