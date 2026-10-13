@@ -181,3 +181,13 @@ h2 {
 .call-to-action-btn {
   border: 2px solid white;
 }
+
+/*****QUOTE SECTION *******/
+footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: center;
+}
